@@ -1,0 +1,15 @@
+.git
+.DS_Store
+
+db/courses.db
+db/schema.sql
+db/README.md
+db/sources/
+db/scripts/
+
+db/data/*
+!db/data/courses.json
+!db/data/graduation_requirements.json
+!db/data/minor_programs.json
+!db/data/double_major_programs.json
+!db/data/convergence_major_programs.json

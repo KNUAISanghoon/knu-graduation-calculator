@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>KNU Graduation Planner</title>
+    <link rel="stylesheet" href="./styles.css?v=custom-credit-free-1" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="app-header">
+        <div class="header-copy">
+          <div class="header-title-row">
+            <img
+              class="header-symbol"
+              src="./assets/knu-seal.png"
+              alt="경북대학교 심볼"
+            />
+            <p class="eyebrow">KNU Graduation Calculator</p>
+          </div>
+          <h1>전자공학부 인공지능전공 졸업학점 계산기</h1>
+          <p class="header-lede">
+            수강 과목을 입력하면 전공, 교양, 다전공, 융합전공 요건을 한 화면에서 확인할 수 있어요.
+          </p>
+          <div class="header-feature-list" aria-label="핵심 기능">
+            <article>
+              <strong>졸업요건 자동 계산</strong>
+              <span>2023~2026학번 기준 전공, 교양, 전공필수 조건을 즉시 계산합니다.</span>
+            </article>
+            <article>
+              <strong>다전공 시나리오</strong>
+              <span>부전공, 복수전공, 융합전공 선택에 따라 필요한 학점을 다시 계산합니다.</span>
+            </article>
+            <article>
+              <strong>수강 과목 관리</strong>
+              <span>검색한 과목을 저장하고 전공, 교양, 일반선택 인정 현황을 확인합니다.</span>
+            </article>
+          </div>
+          <div class="knu-anniversary-card">
+            <img
+              src="./assets/knu-80.jpg"
+              alt="KNU 80주년 로고"
+              onerror="this.hidden = true"
+            />
+            <div>
+              <strong>Kyungpook National University</strong>
+              <span>경북대학교 학생을 위한 졸업요건 계산 서비스</span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="setup-pane" aria-label="졸업요건 설정">
+        <div class="control-grid">
+          <label class="year-field">
+            <span>학번</span>
+            <input
+              id="admissionYearInput"
+              type="number"
+              inputmode="numeric"
+              min="2023"
+              placeholder="예: 2026"
+            />
+          </label>
+
+          <fieldset class="segmented-field">
+            <legend>이수 형태</legend>
+            <div class="segmented-control program-control" id="programTypeGroup">
+              <button type="button" data-program="singleMajor">단일전공</button>
+              <button type="button" data-program="doubleMajor">복수전공</button>
+              <button type="button" data-program="minor">부전공</button>
+              <button type="button" data-program="convergenceMajor">융합전공</button>
+            </div>
+          </fieldset>
+        </div>
+        <div class="minor-config" id="minorConfig" hidden></div>
+      </section>
+
+      <section class="requirements-pane dashboard-pane" aria-labelledby="requirements-title">
+        <div class="pane-head">
+          <div>
+            <p class="eyebrow">Graduation Status</p>
+            <h2 id="requirements-title">졸업요건 현황</h2>
+          </div>
+        </div>
+
+        <div class="requirements-overview">
+          <div class="notice-box" id="programNotice"></div>
+          <div class="requirements-list" id="requirementsList"></div>
+        </div>
+        <div class="special-options" id="specialOptions" aria-label="대체 및 면제 조건"></div>
+        <div class="missing-box">
+          <h3>남은 전공필수</h3>
+          <div id="missingRequiredList"></div>
+        </div>
+      </section>
+
+      <section class="saved-pane course-board" aria-labelledby="saved-title">
+        <div class="saved-toolbar">
+          <div>
+            <p class="eyebrow">My Courses</p>
+            <h2 id="saved-title">나의 수강 과목</h2>
+          </div>
+          <div class="saved-actions">
+            <button class="icon-button danger" id="clearSaved" type="button" title="전체 삭제" aria-label="나의 수강 과목 전체 삭제">
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M3 6h18" />
+                <path d="M8 6V4h8v2" />
+                <path d="M19 6l-1 15H6L5 6" />
+                <path d="M10 11v6" />
+                <path d="M14 11v6" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+          <form class="custom-credit-panel" id="customCreditForm">
+            <div>
+              <p class="eyebrow">External Credits</p>
+              <h3>외부 인정 학점 추가</h3>
+              <span>학교 외부 활동, 특별 인정 학점 등을 직접 입력합니다.</span>
+            </div>
+            <label>
+              <span>제목</span>
+              <input id="customCreditTitle" type="text" maxlength="40" placeholder="예: 현장실습 인정학점" />
+            </label>
+            <div class="custom-credit-row">
+              <label>
+                <span>인정 학점</span>
+                <input id="customCreditValue" type="number" step="0.5" placeholder="3" />
+              </label>
+              <label>
+                <span>인정 분류</span>
+                <select id="customCreditCategory">
+                  <option value="major">전공</option>
+                  <option value="liberal">교양</option>
+                  <option value="general">일반선택</option>
+                </select>
+              </label>
+            </div>
+            <button class="custom-credit-submit" type="submit">학점 추가</button>
+          </form>
+
+        <div class="course-entry-layout">
+          <div class="course-search-column">
+            <label class="search-box">
+              <span>과목명 또는 과목코드</span>
+              <input
+                id="courseSearch"
+                type="search"
+                autocomplete="off"
+                placeholder="예: 자료구조, CLTR0090"
+              />
+            </label>
+            <div class="search-filter-panel" aria-label="과목 검색 필터">
+              <label>
+                <span>과목 구분</span>
+                <select id="courseTypeFilter">
+                  <option value="">전체</option>
+                  <option value="aiMajor">인공지능전공 전공</option>
+                  <option value="otherMajor">타학과 전공</option>
+                  <option value="convergence">선택 융합전공</option>
+                  <option value="liberal">교양</option>
+                  <option value="general">일반선택</option>
+                </select>
+              </label>
+              <label>
+                <span>세부 교양</span>
+                <select id="liberalCategoryFilter">
+                  <option value="">전체</option>
+                  <option value="basic">첨성인기초</option>
+                  <option value="core">첨성인핵심</option>
+                  <option value="soyang">첨성인소양</option>
+                  <option value="sdg">SDG교양</option>
+                </select>
+              </label>
+              <label>
+                <span>단과대학</span>
+                <select id="collegeFilter">
+                  <option value="">전체</option>
+                </select>
+              </label>
+              <label>
+                <span>학부/학과</span>
+                <select id="schoolFilter">
+                  <option value="">전체</option>
+                </select>
+              </label>
+              <label>
+                <span>전공</span>
+                <select id="majorFilter">
+                  <option value="">전체</option>
+                </select>
+              </label>
+              <label class="inline-check">
+                <input id="hideSavedFilter" type="checkbox" />
+                <span>저장한 과목 제외</span>
+              </label>
+              <button class="filter-reset" id="resetSearchFilters" type="button">초기화</button>
+            </div>
+          </div>
+
+        </div>
+        <div class="result-summary" id="resultSummary"></div>
+        <div class="result-list" id="resultList" aria-live="polite"></div>
+
+        <div class="credit-card">
+          <span>저장 과목</span>
+          <strong id="savedCount">0개</strong>
+          <span>총 학점</span>
+          <strong id="savedCredits">0학점</strong>
+        </div>
+
+        <div class="saved-list" id="savedList"></div>
+      </section>
+    </main>
+
+    <script src="./app.js?v=custom-credit-free-1"></script>
+  </body>
+</html>

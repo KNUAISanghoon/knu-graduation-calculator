@@ -1,0 +1,231 @@
+{
+  "programs": {
+    "singleMajor": {
+      "label": "단일전공",
+      "implemented": true
+    },
+    "doubleMajor": {
+      "label": "복수전공",
+      "implemented": true
+    },
+    "minor": {
+      "label": "부전공",
+      "implemented": true
+    },
+    "convergenceMajor": {
+      "label": "융합전공",
+      "implemented": true
+    }
+  },
+  "singleMajor": {
+    "majorName": "전자공학부 인공지능전공",
+    "byAdmissionYear": {
+      "2023": {
+        "totalCredits": 133,
+        "majorCredits": 90,
+        "majorRequiredCredits": 51,
+        "liberalCredits": 30,
+        "sdgCredits": 0
+      },
+      "2024": {
+        "totalCredits": 133,
+        "majorCredits": 90,
+        "majorRequiredCredits": 51,
+        "liberalCredits": 30,
+        "sdgCredits": 3
+      },
+      "2025": {
+        "totalCredits": 133,
+        "majorCredits": 90,
+        "majorRequiredCredits": 51,
+        "liberalCredits": 30,
+        "sdgCredits": 3
+      },
+      "2026": {
+        "totalCredits": 133,
+        "majorCredits": 90,
+        "majorRequiredCredits": 51,
+        "liberalCredits": 30,
+        "sdgCredits": 3,
+        "majorCreditRules": {
+          "singleMajor": 90,
+          "doubleMajor": 61,
+          "convergenceMajor": 61,
+          "oneMinor": 73,
+          "twoOrMoreMinors": 61,
+          "transferStudent": 61
+        },
+        "sourceNote": "2026 최신 전공 학점.pdf 기준: 전자공학부(인공지능전공) 다전공시 61학점, 단일전공시 90학점. 1개 부전공만 이수할 경우 다전공시 이수학점 61학점에 소속 전공 12학점을 추가하여 73학점 적용."
+      }
+    },
+    "majorCreditRules": {
+      "singleMajor": 90,
+      "doubleMajor": 61,
+      "convergenceMajor": 61,
+      "oneMinor": 75,
+      "twoOrMoreMinors": 61,
+      "transferStudent": 61
+    },
+    "liberalAreaRequirements": {
+      "basic": 6,
+      "core": 6,
+      "basicOrCoreDetailTotal": 12,
+      "basicGroups": [
+        {
+          "label": "‘독서와 토론’, ‘사고교육’, ‘글쓰기’, ‘외국어’ 중 3학점",
+          "requiredCredits": 3,
+          "details": [
+            "독서와토론",
+            "독서와 토론",
+            "사고교육",
+            "글쓰기",
+            "외국어"
+          ]
+        },
+        {
+          "label": "‘수리’, ‘기초과학’ 중 3학점",
+          "requiredCredits": 3,
+          "details": [
+            "수리",
+            "기초과학"
+          ],
+          "exemptionKey": "diagnosticMathScienceExempt"
+        }
+      ],
+      "coreGroups": [
+        {
+          "label": "‘인문·사회’ 영역에서 3학점 이상",
+          "requiredCredits": 3,
+          "details": [
+            "인문·사회",
+            "인문•사회",
+            "인문사회"
+          ]
+        },
+        {
+          "label": "수학 I 수강",
+          "requiredCredits": 3,
+          "details": [
+            "자연과학"
+          ],
+          "courseCodes": [
+            "CLTR0211"
+          ]
+        }
+      ]
+    },
+    "liberalCourseOverrides": {
+      "CLTR0041": {
+        "category": "core",
+        "detail": "인문·사회",
+        "sdg": true
+      },
+      "CLTR0045": {
+        "category": "basic",
+        "detail": "사고교육",
+        "sdg": false
+      },
+      "CLTR0211": {
+        "category": "core",
+        "detail": "자연과학",
+        "sdg": false
+      },
+      "CLTR0213": {
+        "category": "core",
+        "detail": "자연과학",
+        "sdg": false
+      },
+      "CLTR0820": {
+        "category": "basic",
+        "detail": "수리",
+        "sdg": false
+      }
+    },
+    "practicalEnglish": {
+      "requiredCredits": 4,
+      "liberalDetail": "실용영어"
+    },
+    "majorRequiredCourses": [
+      {
+        "code": "CAIB0207",
+        "name": "기계학습입문",
+        "credits": 3
+      },
+      {
+        "code": "CAIB0219",
+        "name": "AI융합 캡스톤디자인",
+        "credits": 3
+      },
+      {
+        "code": "CAIB0221",
+        "name": "패턴인식기초",
+        "credits": 3
+      },
+      {
+        "code": "CAIB0226",
+        "name": "데이터분석 기초",
+        "credits": 3
+      },
+      {
+        "code": "CAIB0227",
+        "name": "인공지능수학1",
+        "credits": 3
+      },
+      {
+        "code": "CAIB0228",
+        "name": "인공지능 기초와 활용",
+        "credits": 3
+      },
+      {
+        "code": "CAIB0229",
+        "name": "프로그래밍 기초와 실습",
+        "credits": 4
+      },
+      {
+        "code": "CAIB0230",
+        "name": "문제해결과 알고리즘",
+        "credits": 3
+      },
+      {
+        "code": "CAIB0231",
+        "name": "인공지능수학2",
+        "credits": 3
+      },
+      {
+        "code": "CAIB0234",
+        "name": "신경망개론",
+        "credits": 3
+      },
+      {
+        "code": "CAIB0236",
+        "name": "인터넷과웹기초",
+        "credits": 3
+      },
+      {
+        "code": "CAIB0237",
+        "name": "객체프로그래밍과 실습",
+        "credits": 4
+      },
+      {
+        "code": "CAIB0238",
+        "name": "인공지능세미나특강",
+        "credits": 3
+      },
+      {
+        "code": "COME0301",
+        "name": "이산수학",
+        "credits": 3
+      },
+      {
+        "code": "COMP0325",
+        "name": "알고리즘",
+        "credits": 3
+      },
+      {
+        "code": "COMP0453",
+        "name": "컴퓨팅사고와 SW코딩",
+        "credits": 4
+      }
+    ]
+  }
+}

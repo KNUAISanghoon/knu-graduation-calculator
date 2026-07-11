@@ -1,0 +1,20 @@
+.DS_Store
+
+# Local/generated database artifacts
+db/courses.db
+db/sources/
+
+# Raw/reference files not needed for the deployed website
+db/data/*.pdf
+db/data/*.xlsx
+db/data/*.csv
+db/data/*.md
+db/data/convergence_curriculum_courses.json
+db/scripts/
+
+# Keep only runtime JSON data used by web/app.js
+!db/data/courses.json
+!db/data/graduation_requirements.json
+!db/data/minor_programs.json
+!db/data/double_major_programs.json
+!db/data/convergence_major_programs.json

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 170" role="img" aria-label="경북대학교 Kyungpook National University">
+  <rect width="620" height="170" rx="22" fill="#fff"/>
+  <circle cx="84" cy="85" r="58" fill="#fff" stroke="#d80d20" stroke-width="7"/>
+  <circle cx="84" cy="85" r="38" fill="#d80d20"/>
+  <g fill="#fff">
+    <circle cx="70" cy="76" r="3.5"/>
+    <circle cx="84" cy="68" r="3.5"/>
+    <circle cx="98" cy="76" r="3.5"/>
+    <path d="M84 48l5 10 11 2-8 8 2 11-10-5-10 5 2-11-8-8 11-2z"/>
+    <path d="M66 113h36v6H66zM70 101h28v5H70zM74 90h20v5H74z"/>
+  </g>
+  <text x="166" y="78" font-family="Arial, 'Noto Sans KR', sans-serif" font-size="58" font-weight="900" fill="#55585c">경북대학교</text>
+  <text x="168" y="116" font-family="Arial, sans-serif" font-size="22" font-weight="800" letter-spacing="1" fill="#6b6f74">KYUNGPOOK NATIONAL UNIVERSITY</text>
+</svg>

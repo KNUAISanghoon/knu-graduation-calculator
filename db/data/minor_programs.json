@@ -1,0 +1,1529 @@
+{
+  "metadata": {
+    "source": "2026 최신 전공 학점.pdf pages 21-24 and KNUIN course_offerings",
+    "requiredCredits": 24,
+    "excludedDepartments": [
+      "간호학과",
+      "의과대학",
+      "치과대학",
+      "수의과대학",
+      "약학과",
+      "전자공학부 인공지능전공",
+      "전자공학부 모바일공학전공",
+      "치위생학과",
+      "산업기계공학과"
+    ],
+    "count": 124
+  },
+  "programs": [
+    {
+      "id": "ICT융합학과",
+      "college": "IT대학",
+      "school": "ICT융합학과",
+      "major": "",
+      "department": "ICT융합학과",
+      "matchDepartments": [
+        "ICT융합학과"
+      ],
+      "pdfMultiMajorCredits": null,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "전기공학과",
+      "college": "IT대학",
+      "school": "전기공학과",
+      "major": "",
+      "department": "전기공학과",
+      "matchDepartments": [
+        "전기공학과"
+      ],
+      "pdfMultiMajorCredits": 61,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "전자공학부",
+      "college": "IT대학",
+      "school": "전자공학부",
+      "major": "",
+      "department": "전자공학부",
+      "matchDepartments": [
+        "전자공학부"
+      ],
+      "pdfMultiMajorCredits": 61,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "컴퓨터학부 심화컴퓨팅전공",
+      "college": "IT대학",
+      "school": "컴퓨터학부",
+      "major": "심화컴퓨팅전공",
+      "department": "컴퓨터학부 심화컴퓨팅전공",
+      "matchDepartments": [
+        "컴퓨터학부",
+        "컴퓨터학부 심화컴퓨팅전공"
+      ],
+      "pdfMultiMajorCredits": 54,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "컴퓨터학부 인공지능컴퓨팅전공",
+      "college": "IT대학",
+      "school": "컴퓨터학부",
+      "major": "인공지능컴퓨팅전공",
+      "department": "컴퓨터학부 인공지능컴퓨팅전공",
+      "matchDepartments": [
+        "컴퓨터학부",
+        "컴퓨터학부 인공지능컴퓨팅전공"
+      ],
+      "pdfMultiMajorCredits": 54,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "컴퓨터학부 첨단컴퓨팅연구전공",
+      "college": "IT대학",
+      "school": "컴퓨터학부",
+      "major": "첨단컴퓨팅연구전공",
+      "department": "컴퓨터학부 첨단컴퓨팅연구전공",
+      "matchDepartments": [
+        "컴퓨터학부",
+        "컴퓨터학부 첨단컴퓨팅연구전공"
+      ],
+      "pdfMultiMajorCredits": 54,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "경영학부",
+      "college": "경상대학",
+      "school": "경영학부",
+      "major": "",
+      "department": "경영학부",
+      "matchDepartments": [
+        "경영학부"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 66
+    },
+    {
+      "id": "경제통상학부",
+      "college": "경상대학",
+      "school": "경제통상학부",
+      "major": "",
+      "department": "경제통상학부",
+      "matchDepartments": [
+        "경제통상학부"
+      ],
+      "pdfMultiMajorCredits": 45,
+      "pdfSingleMajorCredits": 66
+    },
+    {
+      "id": "건축학부 건축공학전공",
+      "college": "공과대학",
+      "school": "건축학부",
+      "major": "건축공학전공",
+      "department": "건축학부 건축공학전공",
+      "matchDepartments": [
+        "건축학부 건축공학전공"
+      ],
+      "pdfMultiMajorCredits": 53,
+      "pdfSingleMajorCredits": 65
+    },
+    {
+      "id": "건축학부 건축학전공",
+      "college": "공과대학",
+      "school": "건축학부",
+      "major": "건축학전공",
+      "department": "건축학부 건축학전공",
+      "matchDepartments": [
+        "건축학부 건축학전공"
+      ],
+      "pdfMultiMajorCredits": 120,
+      "pdfSingleMajorCredits": 120
+    },
+    {
+      "id": "고분자공학과",
+      "college": "공과대학",
+      "school": "고분자공학과",
+      "major": "",
+      "department": "고분자공학과",
+      "matchDepartments": [
+        "고분자공학과"
+      ],
+      "pdfMultiMajorCredits": 54,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "금속재료공학과",
+      "college": "공과대학",
+      "school": "금속재료공학과",
+      "major": "",
+      "department": "금속재료공학과",
+      "matchDepartments": [
+        "금속재료공학과"
+      ],
+      "pdfMultiMajorCredits": 53,
+      "pdfSingleMajorCredits": 65
+    },
+    {
+      "id": "기계공학부 기계공학전공",
+      "college": "공과대학",
+      "school": "기계공학부",
+      "major": "기계공학전공",
+      "department": "기계공학부 기계공학전공",
+      "matchDepartments": [
+        "기계공학부",
+        "기계공학부 기계공학전공"
+      ],
+      "pdfMultiMajorCredits": 51,
+      "pdfSingleMajorCredits": 63
+    },
+    {
+      "id": "기계공학부 기계설계학전공",
+      "college": "공과대학",
+      "school": "기계공학부",
+      "major": "기계설계학전공",
+      "department": "기계공학부 기계설계학전공",
+      "matchDepartments": [
+        "기계공학부",
+        "기계공학부 기계설계학전공"
+      ],
+      "pdfMultiMajorCredits": 51,
+      "pdfSingleMajorCredits": 63
+    },
+    {
+      "id": "기계공학부 로봇/자동화전공",
+      "college": "공과대학",
+      "school": "기계공학부",
+      "major": "로봇/자동화전공",
+      "department": "기계공학부 로봇/자동화전공",
+      "matchDepartments": [
+        "기계공학부"
+      ],
+      "pdfMultiMajorCredits": 51,
+      "pdfSingleMajorCredits": 63
+    },
+    {
+      "id": "섬유시스템공학과",
+      "college": "공과대학",
+      "school": "섬유시스템공학과",
+      "major": "",
+      "department": "섬유시스템공학과",
+      "matchDepartments": [
+        "섬유시스템공학과"
+      ],
+      "pdfMultiMajorCredits": 54,
+      "pdfSingleMajorCredits": 66
+    },
+    {
+      "id": "신소재공학과",
+      "college": "공과대학",
+      "school": "신소재공학과",
+      "major": "",
+      "department": "신소재공학과",
+      "matchDepartments": [
+        "신소재공학과"
+      ],
+      "pdfMultiMajorCredits": 54,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "에너지공학부 신재생에너지전공",
+      "college": "공과대학",
+      "school": "에너지공학부",
+      "major": "신재생에너지전공",
+      "department": "에너지공학부 신재생에너지전공",
+      "matchDepartments": [
+        "에너지공학부",
+        "에너지공학부 신재생에너지전공"
+      ],
+      "pdfMultiMajorCredits": 51,
+      "pdfSingleMajorCredits": 63
+    },
+    {
+      "id": "에너지공학부 에너지변환전공",
+      "college": "공과대학",
+      "school": "에너지공학부",
+      "major": "에너지변환전공",
+      "department": "에너지공학부 에너지변환전공",
+      "matchDepartments": [
+        "에너지공학부",
+        "에너지공학부 에너지변환전공"
+      ],
+      "pdfMultiMajorCredits": 51,
+      "pdfSingleMajorCredits": 63
+    },
+    {
+      "id": "응용화학공학부",
+      "college": "공과대학",
+      "school": "응용화학공학부",
+      "major": "",
+      "department": "응용화학공학부",
+      "matchDepartments": [
+        "응용화학공학부"
+      ],
+      "pdfMultiMajorCredits": 51,
+      "pdfSingleMajorCredits": 70
+    },
+    {
+      "id": "토목공학과",
+      "college": "공과대학",
+      "school": "토목공학과",
+      "major": "",
+      "department": "토목공학과",
+      "matchDepartments": [
+        "토목공학과"
+      ],
+      "pdfMultiMajorCredits": 65,
+      "pdfSingleMajorCredits": 65
+    },
+    {
+      "id": "환경공학과",
+      "college": "공과대학",
+      "school": "환경공학과",
+      "major": "",
+      "department": "환경공학과",
+      "matchDepartments": [
+        "환경공학과"
+      ],
+      "pdfMultiMajorCredits": 53,
+      "pdfSingleMajorCredits": 65
+    },
+    {
+      "id": "건설방재공학과",
+      "college": "과학기술대학",
+      "school": "건설방재공학과",
+      "major": "",
+      "department": "건설방재공학과",
+      "matchDepartments": [
+        "건설방재공학과"
+      ],
+      "pdfMultiMajorCredits": 63,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "나노신소재공학과",
+      "college": "과학기술대학",
+      "school": "나노신소재공학과",
+      "major": "",
+      "department": "나노신소재공학과",
+      "matchDepartments": [
+        "나노신소재공학과"
+      ],
+      "pdfMultiMajorCredits": 65,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "섬유패션디자인학부 섬유공학전공",
+      "college": "과학기술대학",
+      "school": "섬유패션디자인학부",
+      "major": "섬유공학전공",
+      "department": "섬유패션디자인학부 섬유공학전공",
+      "matchDepartments": [
+        "섬유패션디자인학부 섬유공학전공"
+      ],
+      "pdfMultiMajorCredits": 65,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "섬유패션디자인학부 패션디자인전공",
+      "college": "과학기술대학",
+      "school": "섬유패션디자인학부",
+      "major": "패션디자인전공",
+      "department": "섬유패션디자인학부 패션디자인전공",
+      "matchDepartments": [
+        "섬유패션디자인학부 패션디자인전공"
+      ],
+      "pdfMultiMajorCredits": 65,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "소프트웨어학과",
+      "college": "과학기술대학",
+      "school": "소프트웨어학과",
+      "major": "",
+      "department": "소프트웨어학과",
+      "matchDepartments": [
+        "소프트웨어학과"
+      ],
+      "pdfMultiMajorCredits": 65,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "스마트플랜트공학과",
+      "college": "과학기술대학",
+      "school": "스마트플랜트공학과",
+      "major": "",
+      "department": "스마트플랜트공학과",
+      "matchDepartments": [
+        "스마트플랜트공학과"
+      ],
+      "pdfMultiMajorCredits": 64,
+      "pdfSingleMajorCredits": 78
+    },
+    {
+      "id": "식품외식산업학과",
+      "college": "과학기술대학",
+      "school": "식품외식산업학과",
+      "major": "",
+      "department": "식품외식산업학과",
+      "matchDepartments": [
+        "식품외식산업학과"
+      ],
+      "pdfMultiMajorCredits": 65,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "에너지화학공학과",
+      "college": "과학기술대학",
+      "school": "에너지화학공학과",
+      "major": "",
+      "department": "에너지화학공학과",
+      "matchDepartments": [
+        "에너지화학공학과"
+      ],
+      "pdfMultiMajorCredits": 65,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "위치정보시스템학과",
+      "college": "과학기술대학",
+      "school": "위치정보시스템학과",
+      "major": "",
+      "department": "위치정보시스템학과",
+      "matchDepartments": [
+        "위치정보시스템학과"
+      ],
+      "pdfMultiMajorCredits": 65,
+      "pdfSingleMajorCredits": 78
+    },
+    {
+      "id": "자동차공학과",
+      "college": "과학기술대학",
+      "school": "자동차공학과",
+      "major": "",
+      "department": "자동차공학과",
+      "matchDepartments": [
+        "자동차공학과"
+      ],
+      "pdfMultiMajorCredits": 65,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "정밀기계공학과",
+      "college": "과학기술대학",
+      "school": "정밀기계공학과",
+      "major": "",
+      "department": "정밀기계공학과",
+      "matchDepartments": [
+        "정밀기계공학과"
+      ],
+      "pdfMultiMajorCredits": 65,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "환경안전공학과",
+      "college": "과학기술대학",
+      "school": "환경안전공학과",
+      "major": "",
+      "department": "환경안전공학과",
+      "matchDepartments": [
+        "환경안전공학과"
+      ],
+      "pdfMultiMajorCredits": 65,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "농산업학과",
+      "college": "농업생명과학대학",
+      "school": "농산업학과",
+      "major": "",
+      "department": "농산업학과",
+      "matchDepartments": [
+        "농산업학과"
+      ],
+      "pdfMultiMajorCredits": 36,
+      "pdfSingleMajorCredits": 66
+    },
+    {
+      "id": "농업토목공학과",
+      "college": "농업생명과학대학",
+      "school": "농업토목공학과",
+      "major": "",
+      "department": "농업토목공학과",
+      "matchDepartments": [
+        "농업토목공학과"
+      ],
+      "pdfMultiMajorCredits": 60,
+      "pdfSingleMajorCredits": 60
+    },
+    {
+      "id": "바이오섬유소재학과",
+      "college": "농업생명과학대학",
+      "school": "바이오섬유소재학과",
+      "major": "",
+      "department": "바이오섬유소재학과",
+      "matchDepartments": [
+        "바이오섬유소재학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "산림과학·조경학부 임산공학전공",
+      "college": "농업생명과학대학",
+      "school": "산림과학·조경학부",
+      "major": "임산공학전공",
+      "department": "산림과학·조경학부 임산공학전공",
+      "matchDepartments": [
+        "산림과학·조경학부 임산공학전공"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "산림과학·조경학부 임학전공",
+      "college": "농업생명과학대학",
+      "school": "산림과학·조경학부",
+      "major": "임학전공",
+      "department": "산림과학·조경학부 임학전공",
+      "matchDepartments": [
+        "산림과학·조경학부 임학전공"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "산림과학·조경학부 조경학전공",
+      "college": "농업생명과학대학",
+      "school": "산림과학·조경학부",
+      "major": "조경학전공",
+      "department": "산림과학·조경학부 조경학전공",
+      "matchDepartments": [
+        "산림과학·조경학부 조경학전공"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "식물의학과",
+      "college": "농업생명과학대학",
+      "school": "식물의학과",
+      "major": "",
+      "department": "식물의학과",
+      "matchDepartments": [
+        "식물의학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 66
+    },
+    {
+      "id": "식품공학부 식품생물공학전공",
+      "college": "농업생명과학대학",
+      "school": "식품공학부",
+      "major": "식품생물공학전공",
+      "department": "식품공학부 식품생물공학전공",
+      "matchDepartments": [
+        "식품공학부",
+        "식품공학부 식품생물공학전공"
+      ],
+      "pdfMultiMajorCredits": 42,
+      "pdfSingleMajorCredits": 66
+    },
+    {
+      "id": "식품공학부 식품소재공학전공",
+      "college": "농업생명과학대학",
+      "school": "식품공학부",
+      "major": "식품소재공학전공",
+      "department": "식품공학부 식품소재공학전공",
+      "matchDepartments": [
+        "식품공학부",
+        "식품공학부 식품소재공학전공"
+      ],
+      "pdfMultiMajorCredits": 42,
+      "pdfSingleMajorCredits": 66
+    },
+    {
+      "id": "식품공학부 식품응용공학전공",
+      "college": "농업생명과학대학",
+      "school": "식품공학부",
+      "major": "식품응용공학전공",
+      "department": "식품공학부 식품응용공학전공",
+      "matchDepartments": [
+        "식품공학부",
+        "식품공학부 식품응용공학전공"
+      ],
+      "pdfMultiMajorCredits": 42,
+      "pdfSingleMajorCredits": 66
+    },
+    {
+      "id": "식품자원경제학과",
+      "college": "농업생명과학대학",
+      "school": "식품자원경제학과",
+      "major": "",
+      "department": "식품자원경제학과",
+      "matchDepartments": [
+        "식품자원경제학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 66
+    },
+    {
+      "id": "원예과학과",
+      "college": "농업생명과학대학",
+      "school": "원예과학과",
+      "major": "",
+      "department": "원예과학과",
+      "matchDepartments": [
+        "원예과학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "응용생명과학부 식물생명과학전공",
+      "college": "농업생명과학대학",
+      "school": "응용생명과학부",
+      "major": "식물생명과학전공",
+      "department": "응용생명과학부 식물생명과학전공",
+      "matchDepartments": [
+        "응용생명과학부",
+        "응용생명과학부 식물생명과학전공"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "응용생명과학부 환경생명화학전공",
+      "college": "농업생명과학대학",
+      "school": "응용생명과학부",
+      "major": "환경생명화학전공",
+      "department": "응용생명과학부 환경생명화학전공",
+      "matchDepartments": [
+        "응용생명과학부",
+        "응용생명과학부 환경생명화학전공"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 66
+    },
+    {
+      "id": "행정학부 공공관리전공",
+      "college": "미분류",
+      "school": "행정학부",
+      "major": "공공관리전공",
+      "department": "행정학부 공공관리전공",
+      "matchDepartments": [
+        "행정학부",
+        "행정학부 공공관리전공"
+      ],
+      "pdfMultiMajorCredits": 36,
+      "pdfSingleMajorCredits": 54
+    },
+    {
+      "id": "행정학부 공공정책전공",
+      "college": "미분류",
+      "school": "행정학부",
+      "major": "공공정책전공",
+      "department": "행정학부 공공정책전공",
+      "matchDepartments": [
+        "행정학부",
+        "행정학부 공공정책전공"
+      ],
+      "pdfMultiMajorCredits": 36,
+      "pdfSingleMajorCredits": 54
+    },
+    {
+      "id": "가정교육과",
+      "college": "사범대학",
+      "school": "가정교육과",
+      "major": "",
+      "department": "가정교육과",
+      "matchDepartments": [
+        "가정교육과"
+      ],
+      "pdfMultiMajorCredits": 51,
+      "pdfSingleMajorCredits": 60
+    },
+    {
+      "id": "교육학과",
+      "college": "사범대학",
+      "school": "교육학과",
+      "major": "",
+      "department": "교육학과",
+      "matchDepartments": [
+        "교육학과"
+      ],
+      "pdfMultiMajorCredits": 51,
+      "pdfSingleMajorCredits": 51
+    },
+    {
+      "id": "국어교육과",
+      "college": "사범대학",
+      "school": "국어교육과",
+      "major": "",
+      "department": "국어교육과",
+      "matchDepartments": [
+        "국어교육과"
+      ],
+      "pdfMultiMajorCredits": 51,
+      "pdfSingleMajorCredits": 60
+    },
+    {
+      "id": "물리교육과",
+      "college": "사범대학",
+      "school": "물리교육과",
+      "major": "",
+      "department": "물리교육과",
+      "matchDepartments": [
+        "물리교육과"
+      ],
+      "pdfMultiMajorCredits": 51,
+      "pdfSingleMajorCredits": 57
+    },
+    {
+      "id": "생물교육과",
+      "college": "사범대학",
+      "school": "생물교육과",
+      "major": "",
+      "department": "생물교육과",
+      "matchDepartments": [
+        "생물교육과"
+      ],
+      "pdfMultiMajorCredits": 51,
+      "pdfSingleMajorCredits": 59
+    },
+    {
+      "id": "수학교육과",
+      "college": "사범대학",
+      "school": "수학교육과",
+      "major": "",
+      "department": "수학교육과",
+      "matchDepartments": [
+        "수학교육과"
+      ],
+      "pdfMultiMajorCredits": 51,
+      "pdfSingleMajorCredits": 60
+    },
+    {
+      "id": "역사교육과",
+      "college": "사범대학",
+      "school": "역사교육과",
+      "major": "",
+      "department": "역사교육과",
+      "matchDepartments": [
+        "역사교육과"
+      ],
+      "pdfMultiMajorCredits": 51,
+      "pdfSingleMajorCredits": 69
+    },
+    {
+      "id": "영어교육과",
+      "college": "사범대학",
+      "school": "영어교육과",
+      "major": "",
+      "department": "영어교육과",
+      "matchDepartments": [
+        "영어교육과"
+      ],
+      "pdfMultiMajorCredits": 51,
+      "pdfSingleMajorCredits": 51
+    },
+    {
+      "id": "유럽어교육학부 독어교육전공",
+      "college": "사범대학",
+      "school": "유럽어교육학부",
+      "major": "독어교육전공",
+      "department": "유럽어교육학부 독어교육전공",
+      "matchDepartments": [
+        "유럽어교육학부 독어교육전공"
+      ],
+      "pdfMultiMajorCredits": 51,
+      "pdfSingleMajorCredits": 51
+    },
+    {
+      "id": "윤리교육과",
+      "college": "사범대학",
+      "school": "윤리교육과",
+      "major": "",
+      "department": "윤리교육과",
+      "matchDepartments": [
+        "윤리교육과"
+      ],
+      "pdfMultiMajorCredits": 51,
+      "pdfSingleMajorCredits": 51
+    },
+    {
+      "id": "일반사회교육과",
+      "college": "사범대학",
+      "school": "일반사회교육과",
+      "major": "",
+      "department": "일반사회교육과",
+      "matchDepartments": [
+        "일반사회교육과"
+      ],
+      "pdfMultiMajorCredits": 51,
+      "pdfSingleMajorCredits": 51
+    },
+    {
+      "id": "정보·컴퓨터교육과",
+      "college": "사범대학",
+      "school": "정보·컴퓨터교육과",
+      "major": "",
+      "department": "정보·컴퓨터교육과",
+      "matchDepartments": [
+        "정보·컴퓨터교육과"
+      ],
+      "pdfMultiMajorCredits": 51,
+      "pdfSingleMajorCredits": 60
+    },
+    {
+      "id": "지구과학교육과",
+      "college": "사범대학",
+      "school": "지구과학교육과",
+      "major": "",
+      "department": "지구과학교육과",
+      "matchDepartments": [
+        "지구과학교육과"
+      ],
+      "pdfMultiMajorCredits": 51,
+      "pdfSingleMajorCredits": 57
+    },
+    {
+      "id": "지리교육과",
+      "college": "사범대학",
+      "school": "지리교육과",
+      "major": "",
+      "department": "지리교육과",
+      "matchDepartments": [
+        "지리교육과"
+      ],
+      "pdfMultiMajorCredits": 51,
+      "pdfSingleMajorCredits": 51
+    },
+    {
+      "id": "체육교육과",
+      "college": "사범대학",
+      "school": "체육교육과",
+      "major": "",
+      "department": "체육교육과",
+      "matchDepartments": [
+        "체육교육과"
+      ],
+      "pdfMultiMajorCredits": 54,
+      "pdfSingleMajorCredits": 70
+    },
+    {
+      "id": "화학교육과",
+      "college": "사범대학",
+      "school": "화학교육과",
+      "major": "",
+      "department": "화학교육과",
+      "matchDepartments": [
+        "화학교육과"
+      ],
+      "pdfMultiMajorCredits": 51,
+      "pdfSingleMajorCredits": 57
+    },
+    {
+      "id": "문헌정보학과",
+      "college": "사회과학대학",
+      "school": "문헌정보학과",
+      "major": "",
+      "department": "문헌정보학과",
+      "matchDepartments": [
+        "문헌정보학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 66
+    },
+    {
+      "id": "미디어커뮤니케이션학과",
+      "college": "사회과학대학",
+      "school": "미디어커뮤니케이션학과",
+      "major": "",
+      "department": "미디어커뮤니케이션학과",
+      "matchDepartments": [
+        "미디어커뮤니케이션학과"
+      ],
+      "pdfMultiMajorCredits": 39,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "사회복지학부 사회복지거시전공",
+      "college": "사회과학대학",
+      "school": "사회복지학부",
+      "major": "사회복지거시전공",
+      "department": "사회복지학부 사회복지거시전공",
+      "matchDepartments": [
+        "사회복지학부",
+        "사회복지학부 사회복지거시전공"
+      ],
+      "pdfMultiMajorCredits": 36,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "사회복지학부 사회복지미시전공",
+      "college": "사회과학대학",
+      "school": "사회복지학부",
+      "major": "사회복지미시전공",
+      "department": "사회복지학부 사회복지미시전공",
+      "matchDepartments": [
+        "사회복지학부",
+        "사회복지학부 사회복지미시전공"
+      ],
+      "pdfMultiMajorCredits": 36,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "사회학과",
+      "college": "사회과학대학",
+      "school": "사회학과",
+      "major": "",
+      "department": "사회학과",
+      "matchDepartments": [
+        "사회학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 66
+    },
+    {
+      "id": "심리학과",
+      "college": "사회과학대학",
+      "school": "심리학과",
+      "major": "",
+      "department": "심리학과",
+      "matchDepartments": [
+        "심리학과"
+      ],
+      "pdfMultiMajorCredits": 42,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "정치외교학과",
+      "college": "사회과학대학",
+      "school": "정치외교학과",
+      "major": "",
+      "department": "정치외교학과",
+      "matchDepartments": [
+        "정치외교학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 63
+    },
+    {
+      "id": "지리학과",
+      "college": "사회과학대학",
+      "school": "지리학과",
+      "major": "",
+      "department": "지리학과",
+      "matchDepartments": [
+        "지리학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 63
+    },
+    {
+      "id": "곤충생명과학과",
+      "college": "생태환경대학",
+      "school": "곤충생명과학과",
+      "major": "",
+      "department": "곤충생명과학과",
+      "matchDepartments": [
+        "곤충생명과학과"
+      ],
+      "pdfMultiMajorCredits": 36,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "관광학과",
+      "college": "생태환경대학",
+      "school": "관광학과",
+      "major": "",
+      "department": "관광학과",
+      "matchDepartments": [
+        "관광학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 66
+    },
+    {
+      "id": "동물생명공학과",
+      "college": "생태환경대학",
+      "school": "동물생명공학과",
+      "major": "",
+      "department": "동물생명공학과",
+      "matchDepartments": [
+        "동물생명공학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 66
+    },
+    {
+      "id": "말/특수동물학과",
+      "college": "생태환경대학",
+      "school": "말/특수동물학과",
+      "major": "",
+      "department": "말/특수동물학과",
+      "matchDepartments": [
+        "말/특수동물학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 66
+    },
+    {
+      "id": "산림생태보호학과",
+      "college": "생태환경대학",
+      "school": "산림생태보호학과",
+      "major": "",
+      "department": "산림생태보호학과",
+      "matchDepartments": [
+        "산림생태보호학과"
+      ],
+      "pdfMultiMajorCredits": 42,
+      "pdfSingleMajorCredits": 66
+    },
+    {
+      "id": "식물자원학과",
+      "college": "생태환경대학",
+      "school": "식물자원학과",
+      "major": "",
+      "department": "식물자원학과",
+      "matchDepartments": [
+        "식물자원학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 66
+    },
+    {
+      "id": "체육학부 건강운동관리전공",
+      "college": "생태환경대학",
+      "school": "체육학부",
+      "major": "건강운동관리전공",
+      "department": "체육학부 건강운동관리전공",
+      "matchDepartments": [
+        "체육학부 건강운동관리전공"
+      ],
+      "pdfMultiMajorCredits": 59,
+      "pdfSingleMajorCredits": 66
+    },
+    {
+      "id": "체육학부 체육학전공",
+      "college": "생태환경대학",
+      "school": "체육학부",
+      "major": "체육학전공",
+      "department": "체육학부 체육학전공",
+      "matchDepartments": [
+        "체육학부 체육학전공"
+      ],
+      "pdfMultiMajorCredits": 59,
+      "pdfSingleMajorCredits": 66
+    },
+    {
+      "id": "축산학과",
+      "college": "생태환경대학",
+      "school": "축산학과",
+      "major": "",
+      "department": "축산학과",
+      "matchDepartments": [
+        "축산학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 66
+    },
+    {
+      "id": "식품영양학과",
+      "college": "생활과학대학",
+      "school": "식품영양학과",
+      "major": "",
+      "department": "식품영양학과",
+      "matchDepartments": [
+        "식품영양학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 65
+    },
+    {
+      "id": "아동학부 아동가족학전공",
+      "college": "생활과학대학",
+      "school": "아동학부",
+      "major": "아동가족학전공",
+      "department": "아동학부 아동가족학전공",
+      "matchDepartments": [
+        "아동학부",
+        "아동학부 아동가족학전공"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 66
+    },
+    {
+      "id": "아동학부 아동학전공",
+      "college": "생활과학대학",
+      "school": "아동학부",
+      "major": "아동학전공",
+      "department": "아동학부 아동학전공",
+      "matchDepartments": [
+        "아동학부",
+        "아동학부 아동학전공"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 66
+    },
+    {
+      "id": "의류학과",
+      "college": "생활과학대학",
+      "school": "의류학과",
+      "major": "",
+      "department": "의류학과",
+      "matchDepartments": [
+        "의류학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 66
+    },
+    {
+      "id": "국악학과 기악전공",
+      "college": "예술대학",
+      "school": "국악학과",
+      "major": "기악전공",
+      "department": "국악학과 기악전공",
+      "matchDepartments": [
+        "국악학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "국악학과 성악전공",
+      "college": "예술대학",
+      "school": "국악학과",
+      "major": "성악전공",
+      "department": "국악학과 성악전공",
+      "matchDepartments": [
+        "국악학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "국악학과 이론ㆍ작곡전공",
+      "college": "예술대학",
+      "school": "국악학과",
+      "major": "이론ㆍ작곡전공",
+      "department": "국악학과 이론ㆍ작곡전공",
+      "matchDepartments": [
+        "국악학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "디자인학과",
+      "college": "예술대학",
+      "school": "디자인학과",
+      "major": "",
+      "department": "디자인학과",
+      "matchDepartments": [
+        "디자인학과"
+      ],
+      "pdfMultiMajorCredits": 36,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "미술학과 서양화전공",
+      "college": "예술대학",
+      "school": "미술학과",
+      "major": "서양화전공",
+      "department": "미술학과 서양화전공",
+      "matchDepartments": [
+        "미술학과"
+      ],
+      "pdfMultiMajorCredits": 36,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "미술학과 조소전공",
+      "college": "예술대학",
+      "school": "미술학과",
+      "major": "조소전공",
+      "department": "미술학과 조소전공",
+      "matchDepartments": [
+        "미술학과"
+      ],
+      "pdfMultiMajorCredits": 36,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "미술학과 조형예술이론전공",
+      "college": "예술대학",
+      "school": "미술학과",
+      "major": "조형예술이론전공",
+      "department": "미술학과 조형예술이론전공",
+      "matchDepartments": [
+        "미술학과"
+      ],
+      "pdfMultiMajorCredits": 36,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "미술학과 한국화전공",
+      "college": "예술대학",
+      "school": "미술학과",
+      "major": "한국화전공",
+      "department": "미술학과 한국화전공",
+      "matchDepartments": [
+        "미술학과"
+      ],
+      "pdfMultiMajorCredits": 36,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "음악학과 관현악전공",
+      "college": "예술대학",
+      "school": "음악학과",
+      "major": "관현악전공",
+      "department": "음악학과 관현악전공",
+      "matchDepartments": [
+        "음악학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "음악학과 성악전공",
+      "college": "예술대학",
+      "school": "음악학과",
+      "major": "성악전공",
+      "department": "음악학과 성악전공",
+      "matchDepartments": [
+        "음악학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "음악학과 이론전공",
+      "college": "예술대학",
+      "school": "음악학과",
+      "major": "이론전공",
+      "department": "음악학과 이론전공",
+      "matchDepartments": [
+        "음악학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "음악학과 작곡전공",
+      "college": "예술대학",
+      "school": "음악학과",
+      "major": "작곡전공",
+      "department": "음악학과 작곡전공",
+      "matchDepartments": [
+        "음악학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "음악학과 피아노전공",
+      "college": "예술대학",
+      "school": "음악학과",
+      "major": "피아노전공",
+      "department": "음악학과 피아노전공",
+      "matchDepartments": [
+        "음악학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "고고인류학과",
+      "college": "인문대학",
+      "school": "고고인류학과",
+      "major": "",
+      "department": "고고인류학과",
+      "matchDepartments": [
+        "고고인류학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 69
+    },
+    {
+      "id": "국어국문학과",
+      "college": "인문대학",
+      "school": "국어국문학과",
+      "major": "",
+      "department": "국어국문학과",
+      "matchDepartments": [
+        "국어국문학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "노어노문학과",
+      "college": "인문대학",
+      "school": "노어노문학과",
+      "major": "",
+      "department": "노어노문학과",
+      "matchDepartments": [
+        "노어노문학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "독어독문학과",
+      "college": "인문대학",
+      "school": "독어독문학과",
+      "major": "",
+      "department": "독어독문학과",
+      "matchDepartments": [
+        "독어독문학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "불어불문학과",
+      "college": "인문대학",
+      "school": "불어불문학과",
+      "major": "",
+      "department": "불어불문학과",
+      "matchDepartments": [
+        "불어불문학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "사학과",
+      "college": "인문대학",
+      "school": "사학과",
+      "major": "",
+      "department": "사학과",
+      "matchDepartments": [
+        "사학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "영어영문학과",
+      "college": "인문대학",
+      "school": "영어영문학과",
+      "major": "",
+      "department": "영어영문학과",
+      "matchDepartments": [
+        "영어영문학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "일어일문학과",
+      "college": "인문대학",
+      "school": "일어일문학과",
+      "major": "",
+      "department": "일어일문학과",
+      "matchDepartments": [
+        "일어일문학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "중어중문학과",
+      "college": "인문대학",
+      "school": "중어중문학과",
+      "major": "",
+      "department": "중어중문학과",
+      "matchDepartments": [
+        "중어중문학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 66
+    },
+    {
+      "id": "철학과",
+      "college": "인문대학",
+      "school": "철학과",
+      "major": "",
+      "department": "철학과",
+      "matchDepartments": [
+        "철학과"
+      ],
+      "pdfMultiMajorCredits": 42,
+      "pdfSingleMajorCredits": 72
+    },
+    {
+      "id": "한문학과",
+      "college": "인문대학",
+      "school": "한문학과",
+      "major": "",
+      "department": "한문학과",
+      "matchDepartments": [
+        "한문학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 63
+    },
+    {
+      "id": "물리학과",
+      "college": "자연과학대학",
+      "school": "물리학과",
+      "major": "",
+      "department": "물리학과",
+      "matchDepartments": [
+        "물리학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 66
+    },
+    {
+      "id": "생명공학부",
+      "college": "자연과학대학",
+      "school": "생명공학부",
+      "major": "",
+      "department": "생명공학부",
+      "matchDepartments": [
+        "생명공학부"
+      ],
+      "pdfMultiMajorCredits": 45,
+      "pdfSingleMajorCredits": 66
+    },
+    {
+      "id": "생물학과",
+      "college": "자연과학대학",
+      "school": "생물학과",
+      "major": "",
+      "department": "생물학과",
+      "matchDepartments": [
+        "생물학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 66
+    },
+    {
+      "id": "수학과",
+      "college": "자연과학대학",
+      "school": "수학과",
+      "major": "",
+      "department": "수학과",
+      "matchDepartments": [
+        "수학과"
+      ],
+      "pdfMultiMajorCredits": 45,
+      "pdfSingleMajorCredits": 66
+    },
+    {
+      "id": "지구시스템과학부 지질학전공",
+      "college": "자연과학대학",
+      "school": "지구시스템과학부",
+      "major": "지질학전공",
+      "department": "지구시스템과학부 지질학전공",
+      "matchDepartments": [
+        "지구시스템과학부",
+        "지구시스템과학부 지질학전공"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 66
+    },
+    {
+      "id": "지구시스템과학부 천문대기과학전공",
+      "college": "자연과학대학",
+      "school": "지구시스템과학부",
+      "major": "천문대기과학전공",
+      "department": "지구시스템과학부 천문대기과학전공",
+      "matchDepartments": [
+        "지구시스템과학부",
+        "지구시스템과학부 천문대기과학전공"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 66
+    },
+    {
+      "id": "지구시스템과학부 해양학전공",
+      "college": "자연과학대학",
+      "school": "지구시스템과학부",
+      "major": "해양학전공",
+      "department": "지구시스템과학부 해양학전공",
+      "matchDepartments": [
+        "지구시스템과학부",
+        "지구시스템과학부 해양학전공"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 66
+    },
+    {
+      "id": "통계학과",
+      "college": "자연과학대학",
+      "school": "통계학과",
+      "major": "",
+      "department": "통계학과",
+      "matchDepartments": [
+        "통계학과"
+      ],
+      "pdfMultiMajorCredits": 42,
+      "pdfSingleMajorCredits": 60
+    },
+    {
+      "id": "화학과",
+      "college": "자연과학대학",
+      "school": "화학과",
+      "major": "",
+      "department": "화학과",
+      "matchDepartments": [
+        "화학과"
+      ],
+      "pdfMultiMajorCredits": 48,
+      "pdfSingleMajorCredits": 66
+    },
+    {
+      "id": "로봇공학과",
+      "college": "첨단기술융합대학",
+      "school": "로봇공학과",
+      "major": "",
+      "department": "로봇공학과",
+      "matchDepartments": [
+        "로봇공학과"
+      ],
+      "pdfMultiMajorCredits": 51,
+      "pdfSingleMajorCredits": 51
+    },
+    {
+      "id": "스마트모빌리티공학과",
+      "college": "첨단기술융합대학",
+      "school": "스마트모빌리티공학과",
+      "major": "",
+      "department": "스마트모빌리티공학과",
+      "matchDepartments": [
+        "스마트모빌리티공학과"
+      ],
+      "pdfMultiMajorCredits": 51,
+      "pdfSingleMajorCredits": 78
+    },
+    {
+      "id": "우주공학부",
+      "college": "첨단기술융합대학",
+      "school": "우주공학부",
+      "major": "",
+      "department": "우주공학부",
+      "matchDepartments": [
+        "우주공학부"
+      ],
+      "pdfMultiMajorCredits": 40,
+      "pdfSingleMajorCredits": 66
+    },
+    {
+      "id": "의생명융합공학과",
+      "college": "첨단기술융합대학",
+      "school": "의생명융합공학과",
+      "major": "",
+      "department": "의생명융합공학과",
+      "matchDepartments": [
+        "의생명융합공학과"
+      ],
+      "pdfMultiMajorCredits": 51,
+      "pdfSingleMajorCredits": 66
+    }
+  ]
+}

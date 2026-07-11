@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 330" role="img" aria-label="KNU 80">
+  <rect width="520" height="330" rx="28" fill="#fff"/>
+  <defs>
+    <linearGradient id="g80" x1="80" y1="50" x2="430" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#d80d20"/>
+      <stop offset="0.52" stop-color="#e43d28"/>
+      <stop offset="1" stop-color="#ff9c1a"/>
+    </linearGradient>
+  </defs>
+  <text x="70" y="200" font-family="Arial, sans-serif" font-size="190" font-weight="900" fill="url(#g80)" letter-spacing="-18">80</text>
+  <path d="M126 232c86-10 165-19 260-4" fill="none" stroke="#d80d20" stroke-width="16" stroke-linecap="round"/>
+  <path d="M320 213c64-10 100-35 142-82" fill="none" stroke="#f28b1a" stroke-width="10" stroke-linecap="round"/>
+  <path d="M454 122l7 13 14 3-12 9 2 15-12-8-13 7 4-14-11-10 15-1z" fill="#f28b1a"/>
+  <text x="86" y="275" font-family="Arial, sans-serif" font-size="56" font-weight="900" fill="#d80d20">KNU</text>
+  <text x="220" y="268" font-family="Arial, 'Noto Sans KR', sans-serif" font-size="32" font-weight="900" fill="#55585c">경북대학교</text>
+  <text x="222" y="292" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#777">KYUNGPOOK NATIONAL UNIVERSITY</text>
+</svg>
