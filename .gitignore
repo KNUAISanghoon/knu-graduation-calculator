@@ -18,3 +18,4 @@ db/scripts/
 !db/data/minor_programs.json
 !db/data/double_major_programs.json
 !db/data/convergence_major_programs.json
+.vercel

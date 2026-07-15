@@ -76,6 +76,26 @@
         <div class="minor-config" id="minorConfig" hidden></div>
       </section>
 
+      <section class="plan-library-pane" aria-labelledby="plan-library-title">
+        <div class="saved-toolbar">
+          <div>
+            <p class="eyebrow">Plan Library</p>
+            <h2 id="plan-library-title">나의 플랜 라이브러리</h2>
+            <span class="plan-library-hint">현재 학번, 이수 형태, 저장 과목을 이름 붙여 저장하고 언제든 다시 불러올 수 있어요.</span>
+          </div>
+        </div>
+
+        <form class="plan-save-row" id="planSaveForm">
+          <label>
+            <span>플랜 이름</span>
+            <input id="planNameInput" type="text" maxlength="30" placeholder="예: 2026 1학기 계획" />
+          </label>
+          <button class="custom-credit-submit" type="submit">현재 상태 저장</button>
+        </form>
+
+        <div class="plan-library-list" id="planLibraryList"></div>
+      </section>
+
       <section class="requirements-pane dashboard-pane" aria-labelledby="requirements-title">
         <div class="pane-head">
           <div>

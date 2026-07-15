@@ -5532,6 +5532,147 @@ body {
   transform: translateY(-1px);
 }
 
+.plan-library-pane {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  box-shadow: 0 8px 22px rgba(22, 22, 22, 0.04);
+  display: grid;
+  gap: 14px;
+  margin: 18px 0;
+  padding: 20px;
+}
+
+.plan-library-hint {
+  color: var(--muted);
+  display: block;
+  font-size: 12px;
+  line-height: 1.5;
+  margin-top: 4px;
+}
+
+.plan-save-row {
+  align-items: end;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: minmax(0, 1fr) auto;
+}
+
+.plan-save-row label {
+  display: grid;
+  gap: 6px;
+  min-width: 0;
+}
+
+.plan-save-row label span {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.plan-save-row input {
+  background: #fff;
+  border: 1px solid var(--line-strong);
+  border-radius: 8px;
+  color: var(--ink);
+  min-height: 40px;
+  outline: none;
+  padding: 0 11px;
+  width: 100%;
+}
+
+.plan-save-row input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(176, 18, 59, 0.12);
+}
+
+.plan-save-row .custom-credit-submit {
+  min-width: 132px;
+  padding: 0 16px;
+}
+
+.plan-library-list {
+  display: grid;
+  gap: 10px;
+}
+
+.plan-library-empty {
+  color: var(--muted);
+  font-size: 13px;
+  margin: 0;
+}
+
+.plan-row {
+  align-items: center;
+  background: var(--panel, #fafafa);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  padding: 12px 14px;
+}
+
+.plan-row-info {
+  display: grid;
+  gap: 3px;
+  min-width: 0;
+}
+
+.plan-row-info strong {
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.plan-row-info span {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.plan-row-actions {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  gap: 8px;
+}
+
+.plan-load-button {
+  background: #161616;
+  border: 1px solid #161616;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 800;
+  min-height: 36px;
+  padding: 0 14px;
+  transition: background 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.plan-load-button:hover {
+  background: var(--accent-strong);
+  border-color: var(--accent-strong);
+  box-shadow: 0 10px 20px rgba(176, 18, 59, 0.16);
+  transform: translateY(-1px);
+}
+
+@media (max-width: 520px) {
+  .plan-save-row {
+    grid-template-columns: 1fr;
+  }
+
+  .plan-row {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .plan-row-actions {
+    justify-content: flex-end;
+  }
+}
+
 .app-shell {
   margin-left: auto;
   margin-right: auto;

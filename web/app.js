@@ -10,6 +10,7 @@ const SPECIAL_OPTIONS_KEY = "knu-graduation-calculator.specialOptions";
 const MINOR_PLAN_KEY = "knu-graduation-calculator.minorPlan";
 const DOUBLE_MAJOR_PLAN_KEY = "knu-graduation-calculator.doubleMajorPlan";
 const CONVERGENCE_MAJOR_PLAN_KEY = "knu-graduation-calculator.convergenceMajorPlan";
+const PLAN_LIBRARY_KEY = "knu-graduation-calculator.planLibrary";
 
 const DEFAULT_SEARCH_FILTERS = {
   type: "",
@@ -27,6 +28,7 @@ const state = {
   convergenceMajorPrograms: [],
   requirements: null,
   saved: [],
+  planLibrary: [],
   query: "",
   searchFilters: { ...DEFAULT_SEARCH_FILTERS },
   admissionYear: localStorage.getItem(ADMISSION_YEAR_KEY) || "2026",
@@ -68,6 +70,9 @@ const els = {
   savedList: document.querySelector("#savedList"),
   savedCount: document.querySelector("#savedCount"),
   savedCredits: document.querySelector("#savedCredits"),
+  planSaveForm: document.querySelector("#planSaveForm"),
+  planNameInput: document.querySelector("#planNameInput"),
+  planLibraryList: document.querySelector("#planLibraryList"),
   clearSaved: document.querySelector("#clearSaved"),
   customCreditForm: document.querySelector("#customCreditForm"),
   customCreditTitle: document.querySelector("#customCreditTitle"),
@@ -318,6 +323,147 @@ function loadSaved() {
 
 function persistSaved() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(state.saved));
+}
+
+function loadPlanLibrary() {
+  try {
+    state.planLibrary = JSON.parse(localStorage.getItem(PLAN_LIBRARY_KEY)) || [];
+  } catch {
+    state.planLibrary = [];
+  }
+}
+
+function persistPlanLibrary() {
+  localStorage.setItem(PLAN_LIBRARY_KEY, JSON.stringify(state.planLibrary));
+}
+
+function snapshotCurrentPlan() {
+  return {
+    saved: state.saved.map((course) => ({ ...course })),
+    admissionYear: state.admissionYear,
+    programType: state.programType,
+    specialOptions: { ...state.specialOptions },
+    minorPlan: { ...state.minorPlan, selected: [...state.minorPlan.selected] },
+    doubleMajorPlan: { ...state.doubleMajorPlan, selected: [...state.doubleMajorPlan.selected] },
+    convergenceMajorPlan: { ...state.convergenceMajorPlan, selected: [...state.convergenceMajorPlan.selected] },
+  };
+}
+
+function savePlanAs(rawName) {
+  const name = String(rawName || "").trim();
+  if (!name) {
+    window.alert("플랜 이름을 입력해 주세요.");
+    return false;
+  }
+
+  const existing = state.planLibrary.find((plan) => plan.name === name);
+  if (existing) {
+    const overwrite = window.confirm(`"${name}" 플랜이 이미 있어요. 현재 상태로 덮어쓸까요?`);
+    if (!overwrite) return false;
+    existing.data = snapshotCurrentPlan();
+    existing.updatedAt = Date.now();
+  } else {
+    state.planLibrary = [
+      ...state.planLibrary,
+      {
+        id: `plan-${Date.now()}-${Math.random().toString(16).slice(2, 7)}`,
+        name,
+        updatedAt: Date.now(),
+        data: snapshotCurrentPlan(),
+      },
+    ];
+  }
+
+  persistPlanLibrary();
+  renderPlanLibrary();
+  return true;
+}
+
+function loadPlan(id) {
+  const plan = state.planLibrary.find((item) => item.id === id);
+  if (!plan) return;
+  const data = plan.data || {};
+
+  state.saved = (data.saved || []).map((course) => ({ ...course }));
+  state.admissionYear = data.admissionYear || state.admissionYear;
+  state.programType = data.programType || state.programType;
+  state.specialOptions = { ...state.specialOptions, ...(data.specialOptions || {}) };
+  state.minorPlan = { ...state.minorPlan, ...(data.minorPlan || {}) };
+  state.doubleMajorPlan = { ...state.doubleMajorPlan, ...(data.doubleMajorPlan || {}) };
+  state.convergenceMajorPlan = { ...state.convergenceMajorPlan, ...(data.convergenceMajorPlan || {}) };
+
+  hydrateSavedCourses();
+  persistAllUserState();
+  render();
+}
+
+function deletePlan(id) {
+  const plan = state.planLibrary.find((item) => item.id === id);
+  if (!plan) return;
+  const confirmed = window.confirm(`"${plan.name}" 플랜을 삭제할까요?`);
+  if (!confirmed) return;
+  state.planLibrary = state.planLibrary.filter((item) => item.id !== id);
+  persistPlanLibrary();
+  renderPlanLibrary();
+}
+
+function renderPlanLibrary() {
+  if (!els.planLibraryList) return;
+  els.planLibraryList.innerHTML = "";
+
+  if (!state.planLibrary.length) {
+    const empty = document.createElement("p");
+    empty.className = "plan-library-empty";
+    empty.textContent = "아직 저장한 플랜이 없어요. 위에서 이름을 입력하고 저장해 보세요.";
+    els.planLibraryList.appendChild(empty);
+    return;
+  }
+
+  const sorted = [...state.planLibrary].sort((a, b) => b.updatedAt - a.updatedAt);
+  sorted.forEach((plan) => {
+    const data = plan.data || {};
+    const courses = data.saved || [];
+    const totalCredits = courses.reduce((sum, course) => sum + (Number(course.credits) || 0), 0);
+    const updated = new Date(plan.updatedAt).toLocaleString("ko-KR", {
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+    });
+
+    const row = document.createElement("article");
+    row.className = "plan-row";
+
+    const info = document.createElement("div");
+    info.className = "plan-row-info";
+    const title = document.createElement("strong");
+    title.textContent = plan.name;
+    const meta = document.createElement("span");
+    meta.textContent = `${courses.length}개 과목 · ${formatCredits(totalCredits)}학점 · ${updated} 저장`;
+    info.append(title, meta);
+
+    const actions = document.createElement("div");
+    actions.className = "plan-row-actions";
+
+    const loadButton = document.createElement("button");
+    loadButton.type = "button";
+    loadButton.className = "plan-load-button";
+    loadButton.textContent = "불러오기";
+    loadButton.addEventListener("click", () => loadPlan(plan.id));
+
+    const deleteButton = document.createElement("button");
+    deleteButton.type = "button";
+    deleteButton.className = "icon-button danger";
+    deleteButton.title = "플랜 삭제";
+    deleteButton.setAttribute("aria-label", `${plan.name} 플랜 삭제`);
+    deleteButton.innerHTML = `<svg aria-hidden="true" viewBox="0 0 24 24"><path d="M3 6h18" /><path d="M8 6V4h8v2" /><path d="M19 6l-1 15H6L5 6" /><path d="M10 11v6" /><path d="M14 11v6" /></svg>`;
+    deleteButton.addEventListener("click", () => deletePlan(plan.id));
+
+    actions.append(loadButton, deleteButton);
+    row.append(info, actions);
+    els.planLibraryList.appendChild(row);
+  });
 }
 
 function persistSpecialOptions() {
@@ -2082,6 +2228,7 @@ function render() {
   renderResults();
   renderSaved();
   renderRequirements();
+  renderPlanLibrary();
 }
 
 function addCourse(code) {
@@ -2225,7 +2372,9 @@ function hydrateSavedCourses() {
 
 async function boot() {
   loadSaved();
+  loadPlanLibrary();
   renderSaved();
+  renderPlanLibrary();
 
   try {
     const [courseResponse, requirementsResponse, minorProgramsResponse, doubleMajorProgramsResponse, convergenceMajorProgramsResponse] = await Promise.all([
@@ -2338,6 +2487,13 @@ els.clearSaved.addEventListener("click", () => {
   state.saved = [];
   persistSaved();
   render();
+});
+
+els.planSaveForm?.addEventListener("submit", (event) => {
+  event.preventDefault();
+  const saved = savePlanAs(els.planNameInput?.value);
+  if (!saved) return;
+  els.planSaveForm.reset();
 });
 
 els.customCreditForm?.addEventListener("submit", (event) => {
