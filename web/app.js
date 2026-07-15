@@ -115,18 +115,9 @@ function elevateAnimatedSelect(dropdown) {
     element.classList.remove("has-open-dropdown");
   });
 
-  [
-    dropdown,
-    dropdown.closest("label"),
-    dropdown.closest(".search-filter-panel"),
-    dropdown.closest(".minor-selector"),
-    dropdown.closest(".minor-config"),
-    dropdown.closest(".setup-pane"),
-    dropdown.closest(".saved-pane"),
-    dropdown.closest(".course-board"),
-  ].filter(Boolean).forEach((element) => {
+  for (let element = dropdown; element && element !== document.body; element = element.parentElement) {
     element.classList.add("has-open-dropdown");
-  });
+  }
 }
 
 function syncAnimatedSelect(select) {
